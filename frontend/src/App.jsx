@@ -1,13 +1,18 @@
 // React import removed as only JSX is used and modern React handles it or it's provided by global
-import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
-import DashboardLayout from './layout/DashboardLayout';
-import Login from './pages/Login';
-import Register from './pages/Register';
-import Overview from './pages/Overview';
-import RegisterConsent from './pages/RegisterConsent';
-import VerifyConsent from './pages/VerifyConsent';
-import Registry from './pages/Registry';
-import Settings from './pages/Settings';
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  Navigate,
+} from "react-router-dom";
+import DashboardLayout from "./layout/DashboardLayout";
+import Login from "./pages/Login";
+import Register from "./pages/Register";
+import Overview from "./pages/Overview";
+import RegisterConsent from "./pages/RegisterConsent";
+import VerifyConsent from "./pages/VerifyConsent";
+import Registry from "./pages/Registry";
+import Settings from "./pages/Settings";
 
 function App() {
   return (
